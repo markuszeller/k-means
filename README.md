@@ -14,14 +14,15 @@ In the example below you see the colums with 100x100, 200x200, 400x400 and 800x8
 
 ## Example rendering
 
-groupSize 64 | groupSize 8
-- | -
-100x100 datapoints | 100x100 datapoints
-![render_example_1](examples/render_1.gif) | ![render_example_1](examples/render_2.gif)
+groupSize 64, 100x100 datapoints  
+![render_example_1](examples/render_1.gif)
 
-In this program you can configure some options to influence the graphics produced and to be auto-saved.
+groupSize 8, 100x100 datapoints  
+![render_example_2](examples/render_2.gif)
 
 ## Configuration
+
+In this program you can configure some options to influence the graphics produced and to be auto-saved.
 
 The code has at the beginning a configuration section. The options are described below and summarized in the code itself. Default values are included.
 
